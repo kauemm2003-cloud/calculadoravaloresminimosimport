@@ -131,7 +131,6 @@ st.caption(
 fator_total = cotacao * (1 + adicional) * (1 + ipi) * (1 + encargos_total)
 
 
-)
 
 # ==== FAIXA DE CUSTO E FAIXA DE DÓLAR (SEM PRECISAR TER O PREÇO EM US$) ====
 st.markdown("---")
