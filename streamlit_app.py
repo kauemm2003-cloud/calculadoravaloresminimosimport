@@ -130,11 +130,7 @@ st.caption(
 # Aqui consideramos: dólar → cotação → adicional → IPI → encargos internos equivalentes
 fator_total = cotacao * (1 + adicional) * (1 + ipi) * (1 + encargos_total)
 
-st.markdown("### Fator total R$/US$")
 
-st.write(
-    f"Cada **US$ 1,00** gera aproximadamente **R$ {fator_total:,.4f}** "
-    "de custo total, considerando cotação, adicional, IPI e encargos equivalentes."
 )
 
 # ==== FAIXA DE CUSTO E FAIXA DE DÓLAR (SEM PRECISAR TER O PREÇO EM US$) ====
